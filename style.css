@@ -1,13 +1,16 @@
 body.ferrari {
-    background-color: #f8f9fa;
-    font-family: 'Mrs Saint Delafield', cursive;
+    background-image: url('enzo-ferrari_wikicommonsjpg.jpeg');
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     margin: 0;
+    font-family: 'Mrs Saint Delafield', cursive;
 }
 
 .navbar {
     padding: 1rem;
     font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.8); 
 }
 
 h1 {
