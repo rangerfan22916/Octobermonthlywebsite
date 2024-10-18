@@ -1,5 +1,5 @@
 body.ferrari {
-    background-image: url('enzo-ferrari_wikicommonsjpg.jpeg');
+    background-image: url('img/enzo-ferrari_wikicommonsjpg.jpeg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -20,4 +20,40 @@ h1 {
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     letter-spacing: 5px;
     text-align: center;
+}
+
+body.early {
+    background-image: url('img/young.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    mask-repeat: no-repeat;
+}
+
+body.ferrari-car {
+    background-image: url('img/car.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+body.racing {
+    background-image: url('img/racing.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+body.challenges {
+    background-image: url('img/multiple.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+body.legacy {
+    background-image: url('img/old.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
