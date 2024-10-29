@@ -15,11 +15,21 @@ body.ferrari {
 
 h1 {
     color: #c72c3b;
-    font-size: 300px;
     font-weight: bold;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 3px 3px 5px rgba(238, 235, 235, 0.3);
     letter-spacing: 5px;
     text-align: center;
+    font-size: 43px;
+}
+
+.homepage-h1 {
+    color: #c72c3b;
+    font-size: 300px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+}
+
+h1:not(.homepage-h1) {
+    font-family: 'Delius', cursive;
 }
 
 body.early {
